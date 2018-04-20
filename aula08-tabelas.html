@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Bootstrap DevMedia</title>
+        <meta name="viewport" content="width-device-width, initial-scale-1.8">  
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" href="css/estilo.css" media="screen">
+    </head>
+    <body>
+        <div class="container">				
+            <div class="row">
+				<div class="col-md-12">
+					<!-- table-striped // zebrado -->
+					<!-- table-bordered // borda na tabela -->
+					<!-- table-hover // mouse em cima -->
+					<!-- table-sm // diminui o espaçamento das linhas da tabela -->
+					<!-- marcar a linha selecionada ? - bootstrap não tem, fazer manualmente ver table-active -->
+					<!-- BOOTSTRAP.0  table-sm // antes bastava colocar tabled-condensed -->
+				<div class="table-responsive">
+					<table class="table table-striped table-bordered table-hover table-sm table-dark">
+						<caption>Lista de usuários</caption>
+						<head>
+							<tr class="table-dark">
+								<th>Titulo</th>
+								<th>Nome</th>
+								<th>Sobrenome</th>
+								<th>Idade</th>
+								<th>Aniversario</th>
+							</tr>
+						</head>
+						<body>
+							<tr class="table-success">
+								<td>Srta</td>
+								<td>Jessica</td>
+								<td>Campos</td>
+								<td>27</td>
+								<td>17/03/1991</td>
+							</tr>
+	
+							<tr class="table-info">
+								<td>Srta</td>
+								<td>Jessica</td>
+								<td>Campos</td>
+								<td>27</td>
+								<td>17/03/1991</td>
+							</tr>
+	
+							<tr class="table-warning">
+								<td>Srta</td>
+								<td>Jessica</td>
+								<td>Campos</td>
+								<td>27</td>
+								<td>17/03/1991</td>
+							</tr>
+							
+						</body>
+					</table>
+				</div>
+
+				</div>
+			</div>
+        </div>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+    </body>
+</html>
